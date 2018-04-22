@@ -1,0 +1,558 @@
+@import "bourbon";
+
+/* top bar */
+
+.logo {
+	height: 1rem;
+}
+
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+	padding: 0;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	font-family: 'Oswald', sans-serif;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	 background:#8dd6f0;
+}
+
+.top-bar {
+	background-color: #123c61;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: #123c61;
+}
+
+@media only screen and (min-width: 40.0625em)
+{
+	.top-bar {
+		background-color: #123c61;
+	}
+
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		background: #123c61;
+	}
+}
+
+
+/* feature */
+
+
+
+/* */
+
+.splash {
+	background-color: #8ed7f0;
+	padding-bottom: 2rem;
+	z-index: 100;
+}
+
+.splash h1 {
+	font-family: 'Rubik', sans-serif;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 3rem;
+	font-size: 3rem;
+	line-height: 3rem;
+}
+
+.splash span {
+	color: #123c61;
+}
+
+.splash .button {
+	background-color: transparent;
+	border: 4px solid #123c61;
+	color: #123c61;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 2rem;
+	font-size: 1.2rem;
+}
+
+.splash .button:hover {
+	border: 4px solid #ffffff;
+	color: #ffffff;
+}
+
+@media only screen and (min-width: 40.0625em) {
+
+	.splash h1 {
+		margin-top: 5rem;
+		font-size: 5rem;
+		line-height: 5rem;
+	}
+
+}
+
+/* wave pattern */
+
+.wave {
+	min-width: 100%;
+}
+
+.wavepattern {
+	z-index: 2;
+	position: relative;
+	margin-top: -2.2rem;
+}
+
+.wavepatternbackground {
+	background-image: url(../img/wavepattern.png);
+	background-size: cover;
+	background-position: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+}
+
+.wavepatternbackground h1 {
+	margin: 0;
+}
+
+@media screen and (min-width: 93.13rem) {
+	.wavepatternbackground {
+		padding: 1rem 0;
+	}
+}
+
+/* secondary nav */
+
+.secondarynav {
+	clear: both;
+	margin-top: -10rem;
+}
+
+.secondarynav h2 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+.secondarynav .fa {
+	font-size: 2.5rem;
+}
+
+.secondarynav h3 img {
+	height: 3rem;
+}
+
+.shopsection h2 {
+	color: #000;
+}
+
+.donatesection,
+.aboutsection,
+.shopsection {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10rem 0;
+	max-width: 100%;
+}
+
+.donatesection h3,
+.aboutsection h3 {
+	text-align: center;
+	color: #ffffff;
+}
+
+.shopsection h3 {
+	text-align: center;
+	color: #000;
+}
+
+.secondarynav a .donatesection:hover,
+.secondarynav a .aboutsection:hover,
+.secondarynav a .shopsection:hover {
+	background-color: #8dd6f0;
+	opacity: .5;
+}
+
+.donatesection {
+	background-image: url(../img/ocean.jpg);
+	max-width: 100%;
+}
+
+.aboutsection {
+	background-image: url(../img/ship.jpg);
+	max-width: 100%;
+}
+
+.shopsection {
+	background-image: url(../img/guy-09.jpg);
+	max-width: 100%;
+}
+
+@media only screen and (min-width: 40.0625em) {
+
+	.donatesection,
+	.aboutsection,
+	.shopsection {
+		float: left;
+		width: 33.33%;
+	}
+
+}
+
+
+
+/* about section */
+
+.reglogo {
+	width: 20%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 6rem;
+}
+
+.boatgraphic {
+	display: block;
+	margin: 0 auto;
+	margin-top: 8rem;
+	height: 3rem;
+}
+
+
+.wavebackground {
+	background-image: url(../img/waves-11.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.about h1,
+.about h4 {
+	text-align: center;
+}
+
+.about h1 {
+	font-family: 'Rubik', sans-serif;
+	color: #186a98;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	font-size: 3.5rem;
+}
+
+.about h4 {
+	font-family: 'Amatic SC', cursive;
+	color: #186a98;
+	margin-top: 0;
+	font-size: 2.125rem;
+}
+
+.aboutparagraph {
+	margin-top: 3rem;
+	color: #186a98;
+	margin-bottom: 6rem;
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.125rem;
+	padding-top: .5rem;
+}
+
+.about .button {
+	background-color: transparent;
+	border: 4px solid #123c61;
+	color: #123c61;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: .5rem;
+	font-size: 1.2rem;
+}
+
+.about .button:hover {
+	border: 3px solid #ffffff;
+	color: #ffffff;
+}
+
+.buttonspace {
+	margin-right: 1rem;
+}
+
+@media screen and (min-width: 37.5rem) {
+
+	.wavebackground {
+		padding: 2rem 0;
+	}
+
+	.aboutparagraph {
+		color: #186a98;
+	}
+}
+
+/* SHOP */
+
+.backgroundocean {
+	background-color: #8dd6f0;
+	padding: 0 0 5rem 0;
+}
+
+.shop h1,
+.shop h4 {
+	text-align: center;
+}
+
+.shop h1 {
+	font-family: 'Rubik', sans-serif;
+	color: #ffffff;
+	margin-top: 3.5rem;
+	margin-bottom: 0;
+}
+
+.shop h4 {
+	font-family: 'Amatic SC', cursive;
+	color: #ffffff;
+	margin-top: .5rem;
+	font-size: 2.125rem;
+}
+
+.panel.radius h4 {
+	font-size: 1.2rem;
+}
+
+.shop h5 {
+	margin-top: .5rem;
+}
+
+.productgrids {
+	margin-top: 5rem;
+}
+
+.productgrids h4{
+	text-align: left;
+	font-family: 'Oswald', sans-serif;
+	color: #186a98;
+}
+
+@media screen and (min-width: 93.13em) {
+
+	.backgroundocean {
+		padding: 0 0 8rem 0;
+	}
+
+}
+
+/* donate */
+
+.donate {
+	padding: 6rem 0;
+}
+
+.donate h1,
+.donate h4 {
+	text-align: center;
+}
+
+.donate h1 {
+	font-family: 'Rubik', sans-serif;
+	color: #186a98;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	font-size: 3.5rem;
+}
+
+.donate h4 {
+	font-family: 'Amatic SC', cursive;
+	color: #186a98;
+	margin-top: 0;
+	font-size: 2.125rem;
+	margin-bottom: 8rem;
+}
+
+.donate label.right {
+	color: #186a98;
+}
+
+input:not([type]), input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+	color: #9e9e9e;
+}
+
+.donate form {
+	margin-top: 1.8rem;
+}
+
+.donate .button {
+	background-color: transparent;
+	border: 4px solid #123c61;
+	color: #123c61;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 3rem;
+}
+
+.donate .button:hover {
+	border: 4px solid #8dd6f0;
+	color: #8dd6f0;
+}
+
+.donate input:not([type]), input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+	box-shadow: inset 0 1px 2px #123c61;;
+}
+
+/* donate pop-up */
+
+.reveal-modal {
+	background-color: #8dd6f0;
+}
+
+.reveal-modal h1 {
+	color: #ffffff;
+	line-height: 3rem;
+	font-family: 'Rubik', sans-serif;
+}
+
+.reveal-modal p {
+	color: #123c61;
+	font-family: 'Oswald', sans-serif;
+}
+
+.disclaimer {
+	font-size: .8rem;
+	margin-top: 3rem;
+	text-align: center;
+}
+
+/* footer logo */
+
+footer {
+	background-color: #123c61;
+	padding: 3rem 0;
+}
+
+.footerlogo {
+	height: 10rem;
+	display: block;
+	margin: 0 auto;
+}
+
+footer ul {
+	list-style: none;
+	text-decoration: none;
+	margin-top: 2rem;
+	font-family: 'Oswald', sans-serif;
+	margin-left: 0;
+}
+
+footer li {
+	text-align: center;
+	color: #ffffff;
+}
+
+footer a {
+	color: #ffffff;
+}
+
+footer p {
+	text-align: center;
+	margin: 0;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+}
+
+.contactinfo {
+	margin-top: 2rem;
+}
+
+footer h4 {
+	color: #ffffff;
+}
+
+footer .button {
+	border: 3px solid #ffffff;
+	background-color: transparent;
+	margin-top: 2.7rem;
+}
+
+footer .button:hover {
+	border: 3px solid #8dd6f0;
+	background-color: transparent;
+	color: #8dd6f0;
+}
+
+/* footer form fields */
+
+label {
+	color: #ffffff;
+}
+
+/* footer modal */
+
+footer .reveal-modal {
+	background: #123c61;
+}
+
+.reveal-modal .button {
+	border: 3px solid #ffffff;
+	background-color: transparent;
+	margin-top: 1rem;
+}
+
+.reveal-modal .button:hover {
+	border: 3px solid #123c61;
+	background-color: transparent;
+	color: #123c61;
+}
+
+.reveal-modal h2 {
+	color:  #123c61;
+	font-family: 'Rubik', sans-serif;
+	margin-bottom: 2rem;
+	line-height: 2.5rem;
+}
+
+.reveal-modal label {
+	color:  #123c61;
+}
+
+/* footer accordion */
+
+.accordion .accordion-navigation.active > a, .accordion dd.active > a, .accordion .accordion-navigation > a, .accordion dd > a {
+	border-bottom: 2px solid #ffffff;
+}
+
+.accordion .accordion-navigation > a, .accordion dd > a {
+	background: #123c61;
+}
+
+.accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
+	background: #123c61;
+}
+
+.accordion .accordion-navigation.active > a, .accordion dd.active > a,
+.accordion .accordion-navigation > a, .accordion dd > a {
+	color: #ffffff;
+}
+
+.accordion .ptitle {
+	font-weight: 700;
+	color: #8dd6f0;
+	font-family: 'Oswald', sans-serif;
+}
+
+.accordion p {
+	color: #ffffff;
+}
+
+.accordion .accordion-navigation.active > a, .accordion dd.active > a, .accordion .accordion-navigation > a, .accordion dd > a {
+	background: #123c61;
+}
+
+.accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
+	background-image: url(../img/ocean.jpg);
+	background-size: cover;
+	background-position: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
