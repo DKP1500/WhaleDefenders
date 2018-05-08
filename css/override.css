@@ -469,7 +469,7 @@ footer .button {
 	border: 4px solid #ffffff;
 	background-color: transparent;
 	margin-top: 2.7rem;
-	font-size: 1.2rem;
+	font-size: 1.2rem !important;
 }
 
 footer .button:hover {
