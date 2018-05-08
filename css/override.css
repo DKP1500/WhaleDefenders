@@ -397,6 +397,28 @@ input:not([type]), input[type="text"], input[type="password"], input[type="date"
 	box-shadow: inset 0 1px 2px #123c61;;
 }
 
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+	background-color: #8dd6f0;
+}
+
+.orbit-container .orbit-next {
+	margin-top: -73px;
+}
+
+.orbit-bullets, 
+.orbit-bullets-container {
+	display: none;
+}
+
+.orbit-container .orbit-prev {
+	display: none;
+	visibility: hidden;
+}
+
+.orbit-container .orbit-timer {
+	display: none;
+}
+
 /* donate pop-up */
 
 .reveal-modal {
@@ -416,7 +438,7 @@ input:not([type]), input[type="text"], input[type="password"], input[type="date"
 
 .disclaimer {
 	font-size: .8rem;
-	margin-top: 3rem;
+	margin-top: 1rem;
 	text-align: center;
 }
 
