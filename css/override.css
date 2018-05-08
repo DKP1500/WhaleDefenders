@@ -267,7 +267,7 @@
 }
 
 .about .button:hover {
-	border: 3px solid #ffffff;
+	border: 4px solid #ffffff;
 	color: #ffffff;
 }
 
@@ -385,6 +385,7 @@ input:not([type]), input[type="text"], input[type="password"], input[type="date"
 	text-transform: uppercase;
 	font-weight: 700;
 	margin-top: 3rem;
+	font-size: 1.2rem;
 }
 
 .donate .button:hover {
@@ -465,7 +466,7 @@ footer h4 {
 }
 
 footer .button {
-	border: 3px solid #ffffff;
+	border: 4px solid #ffffff;
 	background-color: transparent;
 	margin-top: 2.7rem;
 }
