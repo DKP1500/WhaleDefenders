@@ -70,6 +70,26 @@
     -o-animation-duration:.2s;
     animation-delay: .2s;
 }
+
+#in-left-delay {
+	 -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-duration:.5s;
+    animation-delay: .5s;
+}
+
 /* top bar */
 
 .logo {
@@ -274,6 +294,11 @@
 
 /* about section */
 
+.about {
+	background-color: #8ed7f0;
+	padding: 3rem 0;
+}
+
 .reglogo {
 	width: 20%;
 	display: block;
@@ -302,7 +327,7 @@
 
 .about h1 {
 	font-family: 'Rubik', sans-serif;
-	color: #186a98;
+	color: #123c61;
 	margin-top: 2rem;
 	margin-bottom: 0;
 	font-size: 3.5rem;
@@ -310,18 +335,26 @@
 
 .about h4 {
 	font-family: 'Amatic SC', cursive;
-	color: #186a98;
+	color: #ffffff;
 	margin-top: 0;
 	font-size: 2.125rem;
 }
 
-.aboutparagraph {
-	margin-top: 3rem;
+.aboutparagraph1, .aboutparagraph2 {
 	color: #186a98;
-	margin-bottom: 6rem;
 	font-family: 'Oswald', sans-serif;
 	line-height: 1.125rem;
-	padding-top: .5rem;
+	padding-top: 3rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.aboutparagraph1 {
+	padding: 5rem 0;
+}
+
+.aboutparagraph2 {
+	padding-top: 5rem;
+	padding-bottom: 6rem;
 }
 
 .about .button {
@@ -332,7 +365,7 @@
 	text-transform: uppercase;
 	font-weight: 700;
 	margin-top: .5rem;
-	font-size: 1.2rem;
+	font-size: 16px;
 }
 
 .about .button:hover {
@@ -353,13 +386,30 @@
 	.aboutparagraph {
 		color: #186a98;
 	}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+	.aboutparagraph1 {
+		padding-bottom: 0rem;
+	}
+
+	.aboutparagraph2 {
+		padding-top: 1rem !important;
+		padding-bottom: 6rem;
+	}
+
 }
 
 /* SHOP */
 
+.shop {
+	padding: 3rem 0;
+}
+
 .backgroundocean {
 	background-color: #8dd6f0;
-	padding: 0 0 5rem 0;
 }
 
 .shop h1,
@@ -369,8 +419,9 @@
 
 .shop h1 {
 	font-family: 'Rubik', sans-serif;
-	color: #ffffff;
+	color: #123c61;
 	margin-top: 3.5rem;
+	font-size: 3.5rem;
 	margin-bottom: 0;
 }
 
@@ -379,6 +430,7 @@
 	color: #ffffff;
 	margin-top: .5rem;
 	font-size: 2.125rem;
+	margin-bottom: 1rem;
 }
 
 .panel.radius h4 {
