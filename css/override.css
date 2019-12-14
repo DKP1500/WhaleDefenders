@@ -349,12 +349,12 @@
 }
 
 .aboutparagraph1 {
-	padding: 5rem 0;
+	padding: 5rem 0 3rem 0;
 }
 
 .aboutparagraph2 {
 	padding-top: 5rem;
-	padding-bottom: 6rem;
+	padding-bottom: 3rem;
 }
 
 .about .button {
@@ -397,7 +397,7 @@
 
 	.aboutparagraph2 {
 		padding-top: 1rem !important;
-		padding-bottom: 6rem;
+		padding-bottom: 5rem;
 	}
 
 }
@@ -462,7 +462,7 @@
 /* donate */
 
 .donate {
-	padding: 6rem 0;
+	padding: 7rem 0;
 }
 
 .donate h1,
@@ -472,7 +472,7 @@
 
 .donate h1 {
 	font-family: 'Rubik', sans-serif;
-	color: #186a98;
+	color: #123c61;
 	margin-top: 2rem;
 	margin-bottom: 0;
 	font-size: 3.5rem;
